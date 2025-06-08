@@ -1,4 +1,4 @@
-var timer = 6;
+var timer = 60;
 var score = 0;
 var HitNumber = 0;
 
@@ -28,7 +28,7 @@ function runtimer() {
 function hitting(){
     HitNumber = Math.floor(Math.random()*10);
     document.querySelector(".hitNum").textContent= HitNumber;
-    IncreaseScore()
+    
 }
 
 function IncreaseScore(){
